@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f42a6e63-4819-43b9-887b-a6532bfe73ae" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/bg/codeacademy/spring/gossiptalks/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bg/codeacademy/spring/gossiptalks/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bg/codeacademy/spring/gossiptalks/exception/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bg/codeacademy/spring/gossiptalks/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bg/codeacademy/spring/gossiptalks/model/dto/gossip/CreateGossipRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bg/codeacademy/spring/gossiptalks/model/dto/gossip/CreateGossipRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bg/codeacademy/spring/gossiptalks/model/entity/Gossip.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bg/codeacademy/spring/gossiptalks/model/entity/Gossip.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bg/codeacademy/spring/gossiptalks/model/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bg/codeacademy/spring/gossiptalks/model/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bg/codeacademy/spring/gossiptalks/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bg/codeacademy/spring/gossiptalks/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bg/codeacademy/spring/gossiptalks/repository/impl/UserRepositoryImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bg/codeacademy/spring/gossiptalks/security/WebSecurity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bg/codeacademy/spring/gossiptalks/security/WebSecurity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bg/codeacademy/spring/gossiptalks/service/impl/GossipServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bg/codeacademy/spring/gossiptalks/service/impl/GossipServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bg/codeacademy/spring/gossiptalks/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bg/codeacademy/spring/gossiptalks/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bg/codeacademy/spring/gossiptalks/validation/PasswordMatcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bg/codeacademy/spring/gossiptalks/validation/PasswordMatcher.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TestNG Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="myId2FirstActivated">
+      <map>
+        <entry key="JPA Inspector" value="true" />
+        <entry key="JPA Palette" value="true" />
+        <entry key="JPA Structure" value="true" />
+      </map>
+    </option>
+    <option name="myId2Visible">
+      <map>
+        <entry key="JPA Inspector" value="false" />
+        <entry key="JPA Palette" value="false" />
+        <entry key="JPA Structure" value="false" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectId" id="1yECnpQlBAMGHwlLWfBeoEBtbBU" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+    <ConfirmationsSetting value="2" id="Remove" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="TestNG" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.TestNG" value="" />
+    <property name="last.edited.regexp" value="lev" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java/bg/codeacademy/spring/gossiptalks" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/bg/codeacademy/spring/gossiptalks" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IdeaProjects\CodixMercurial\gossip-talks-assignment-team-2\src\main\java\bg\codeacademy\spring\gossiptalks" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="bg.codeacademy.spring.gossiptalks" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="bg.codeacademy.spring.gossiptalks.controller" />
+      <recent name="bg.codeacademy.spring.gossiptalks.service.impl" />
+      <recent name="bg.codeacademy.spring.gossiptalks.model.entity" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="bg.codeacademy.spring.gossiptalks.config" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.Main">
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bg.codeacademy.spring.gossiptalks.Test" />
+      <module name="gossip-talks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bg.codeacademy.spring.gossiptalks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GossipTalksIntegrationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="gossip-talks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bg.codeacademy.spring.gossiptalks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="bg.codeacademy.spring.gossiptalks" />
+      <option name="MAIN_CLASS_NAME" value="bg.codeacademy.spring.gossiptalks.GossipTalksIntegrationTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="gossip-talks" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="bg.codeacademy.spring.gossiptalks.Main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserControllerTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="gossip-talks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bg.codeacademy.spring.gossiptalks.controllerTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="bg.codeacademy.spring.gossiptalks.controllerTest" />
+      <option name="MAIN_CLASS_NAME" value="bg.codeacademy.spring.gossiptalks.controllerTest.UserControllerTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceTest.try_to_get_current_logged_user_by_nonexistent_username_getCurrentLoggedUser" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="gossip-talks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bg.codeacademy.spring.gossiptalks.servicesTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="bg.codeacademy.spring.gossiptalks.servicesTest" />
+      <option name="MAIN_CLASS_NAME" value="bg.codeacademy.spring.gossiptalks.servicesTest.UserServiceTest" />
+      <option name="METHOD_NAME" value="try_to_get_current_logged_user_by_nonexistent_username_getCurrentLoggedUser" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="&lt;default&gt;" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="gossip-talks" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="PACKAGE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.&lt;default&gt;" />
+        <item itemvalue="JUnit.GossipTalksIntegrationTests" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="TestNG.UserServiceTest.try_to_get_current_logged_user_by_nonexistent_username_getCurrentLoggedUser" />
+        <item itemvalue="TestNG.UserControllerTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f42a6e63-4819-43b9-887b-a6532bfe73ae" name="Default Changelist" comment="" />
+      <created>1631807539697</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1631807539697</updated>
+      <workItem from="1631807542407" duration="15914000" />
+      <workItem from="1631951573558" duration="18801000" />
+      <workItem from="1632051500637" duration="727000" />
+      <workItem from="1632052255200" duration="38365000" />
+      <workItem from="1632232884411" duration="2321000" />
+      <workItem from="1632235529660" duration="90600000" />
+      <workItem from="1632724264398" duration="39118000" />
+      <workItem from="1632821992155" duration="2827000" />
+      <workItem from="1632837028786" duration="26782000" />
+      <workItem from="1632908828503" duration="15733000" />
+      <workItem from="1633015418711" duration="12602000" />
+      <workItem from="1634539063578" duration="553000" />
+      <workItem from="1635426621037" duration="61000" />
+      <workItem from="1635427189854" duration="580000" />
+      <workItem from="1635886649682" duration="5936000" />
+      <workItem from="1636033921584" duration="45000" />
+      <workItem from="1636563119439" duration="600000" />
+      <workItem from="1636583993226" duration="5075000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/bg/codeacademy/spring/gossiptalks/service/impl/UserServiceImplTest.java</url>
+          <line>136</line>
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/gossip_talks_assignment_team_2$GossipServiceImplTest_get_all_gossips_of_friends_correct__2_.ic" NAME="GossipServiceImplTest.get_all_gossips_of_friends_correct (2) Coverage Results" MODIFIED="1632558487253" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>bg.codeacademy.spring.gossiptalks.service.impl.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/gossip_talks_assignment_team_2$_default_.ic" NAME="&lt;default&gt; Coverage Results" MODIFIED="1632941356620" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/gossip_talks_assignment_team_2$GossipServiceImplTest_get_all_gossips_of_friends_correct.ic" NAME="GossipServiceImplTest.get_all_gossips_of_friends_correct Coverage Results" MODIFIED="1632729138569" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>bg.codeacademy.spring.gossiptalks.service.impl.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/gossip_talks_assignment_team_2$GossipServiceImplTest.ic" NAME="GossipServiceImplTest Coverage Results" MODIFIED="1632729208978" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>bg.codeacademy.spring.gossiptalks.service.impl.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/gossip_talks_assignment_team_2$UserControllerTest.ic" NAME="UserControllerTest Coverage Results" MODIFIED="1632747640116" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>bg.codeacademy.spring.gossiptalks.controllerTest.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/gossip_talks_assignment_team_2$UserServiceImplTest_find_all_users_with_substring_correct.ic" NAME="UserServiceImplTest.find_all_users_with_substring_correct Coverage Results" MODIFIED="1632501944129" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>bg.codeacademy.spring.gossiptalks.service.impl.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/gossip_talks_assignment_team_2$UserServiceTest.ic" NAME="UserServiceTest Coverage Results" MODIFIED="1632745189971" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>bg.codeacademy.spring.gossiptalks.servicesTest.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="hg4idea.settings">
+    <option name="CHECK_INCOMING_OUTGOING" value="true" />
+    <option name="RECENT_HG_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+</project>

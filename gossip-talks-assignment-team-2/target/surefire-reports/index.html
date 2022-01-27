@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button class="button" id="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Surefire_suite">
+              <span class="suite-name border-passed">Surefire suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Surefire_suite">
+                    <span>[unset file name]</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Surefire_suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Surefire_suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Surefire_suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Surefire_suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Surefire_suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Surefire_suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">16 methods,   16 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Surefire_suite" class="hide-methods passed suite-Surefire_suite"> (hide)</a> <!-- hide-methods passed suite-Surefire_suite -->
+                      <a href="#" panel-name="suite-Surefire_suite" class="show-methods passed suite-Surefire_suite"> (show)</a> <!-- show-methods passed suite-Surefire_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Surefire_suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="bg.codeacademy.spring.gossiptalks.controllerTest.UserControllerTest" hash-for-method="create_User_correct">create_User_correct</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="bg.codeacademy.spring.gossiptalks.controllerTest.UserControllerTest" hash-for-method="get_Users_correct">get_Users_correct</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="bg.codeacademy.spring.gossiptalks.controllerTest.UserControllerTest" hash-for-method="get_all_users_with_name_params_unauthorized">get_all_users_with_name_params_unauthorized</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="bg.codeacademy.spring.gossiptalks.controllerTest.UserControllerTest" hash-for-method="get_all_users_without_params">get_all_users_without_params</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="bg.codeacademy.spring.gossiptalks.controllerTest.UserControllerTest" hash-for-method="get_current_logged_user">get_current_logged_user</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="bg.codeacademy.spring.gossiptalks.servicesTest.UserServiceTest" hash-for-method="try_to_change_password_with_noPasswordMatch_changePassword">try_to_change_password_with_noPasswordMatch_changePassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="bg.codeacademy.spring.gossiptalks.servicesTest.UserServiceTest" hash-for-method="try_to_change_password_with_nonexisting_user_changePassword">try_to_change_password_with_nonexisting_user_changePassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="bg.codeacademy.spring.gossiptalks.servicesTest.UserServiceTest" hash-for-method="try_to_change_password_with_right_password_and_existing_username_changePassword">try_to_change_password_with_right_password_and_existing_username_changePassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="bg.codeacademy.spring.gossiptalks.servicesTest.UserServiceTest" hash-for-method="try_to_create_user_save">try_to_create_user_save</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="bg.codeacademy.spring.gossiptalks.servicesTest.UserServiceTest" hash-for-method="try_to_create_user_with_existing_username_save">try_to_create_user_with_existing_username_save</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="bg.codeacademy.spring.gossiptalks.servicesTest.UserServiceTest" hash-for-method="try_to_get_all_users_by_SubString_getAll">try_to_get_all_users_by_SubString_getAll</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="bg.codeacademy.spring.gossiptalks.servicesTest.UserServiceTest" hash-for-method="try_to_get_by_nonexisting_username_getByUsername">try_to_get_by_nonexisting_username_getByUsername</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="bg.codeacademy.spring.gossiptalks.servicesTest.UserServiceTest" hash-for-method="try_to_get_by_username_correct_getByUsername">try_to_get_by_username_correct_getByUsername</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="bg.codeacademy.spring.gossiptalks.servicesTest.UserServiceTest" hash-for-method="try_to_get_current_logged_user_by_not_exist_username">try_to_get_current_logged_user_by_not_exist_username</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="bg.codeacademy.spring.gossiptalks.servicesTest.UserServiceTest" hash-for-method="try_to_get_current_logged_user_by_username_getCurrentLoggedUser">try_to_get_current_logged_user_by_username_getCurrentLoggedUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="bg.codeacademy.spring.gossiptalks.servicesTest.GossipServiceTest" hash-for-method="try_to_save_gossip_with_correct_username_save">try_to_save_gossip_with_correct_username_save</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Surefire_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Surefire_suite" class="panel Surefire_suite">
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">bg.codeacademy.spring.gossiptalks.servicesTest.UserServiceTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="try_to_change_password_with_noPasswordMatch_changePassword">
+                  </a> <!-- try_to_change_password_with_noPasswordMatch_changePassword -->
+                  <span class="method-name">try_to_change_password_with_noPasswordMatch_changePassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="try_to_change_password_with_nonexisting_user_changePassword">
+                  </a> <!-- try_to_change_password_with_nonexisting_user_changePassword -->
+                  <span class="method-name">try_to_change_password_with_nonexisting_user_changePassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="try_to_change_password_with_right_password_and_existing_username_changePassword">
+                  </a> <!-- try_to_change_password_with_right_password_and_existing_username_changePassword -->
+                  <span class="method-name">try_to_change_password_with_right_password_and_existing_username_changePassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="try_to_create_user_save">
+                  </a> <!-- try_to_create_user_save -->
+                  <span class="method-name">try_to_create_user_save</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="try_to_create_user_with_existing_username_save">
+                  </a> <!-- try_to_create_user_with_existing_username_save -->
+                  <span class="method-name">try_to_create_user_with_existing_username_save</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="try_to_get_all_users_by_SubString_getAll">
+                  </a> <!-- try_to_get_all_users_by_SubString_getAll -->
+                  <span class="method-name">try_to_get_all_users_by_SubString_getAll</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="try_to_get_by_nonexisting_username_getByUsername">
+                  </a> <!-- try_to_get_by_nonexisting_username_getByUsername -->
+                  <span class="method-name">try_to_get_by_nonexisting_username_getByUsername</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="try_to_get_by_username_correct_getByUsername">
+                  </a> <!-- try_to_get_by_username_correct_getByUsername -->
+                  <span class="method-name">try_to_get_by_username_correct_getByUsername</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="try_to_get_current_logged_user_by_not_exist_username">
+                  </a> <!-- try_to_get_current_logged_user_by_not_exist_username -->
+                  <span class="method-name">try_to_get_current_logged_user_by_not_exist_username</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="try_to_get_current_logged_user_by_username_getCurrentLoggedUser">
+                  </a> <!-- try_to_get_current_logged_user_by_username_getCurrentLoggedUser -->
+                  <span class="method-name">try_to_get_current_logged_user_by_username_getCurrentLoggedUser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">bg.codeacademy.spring.gossiptalks.controllerTest.UserControllerTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="create_User_correct">
+                  </a> <!-- create_User_correct -->
+                  <span class="method-name">create_User_correct</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="get_Users_correct">
+                  </a> <!-- get_Users_correct -->
+                  <span class="method-name">get_Users_correct</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="get_all_users_with_name_params_unauthorized">
+                  </a> <!-- get_all_users_with_name_params_unauthorized -->
+                  <span class="method-name">get_all_users_with_name_params_unauthorized</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="get_all_users_without_params">
+                  </a> <!-- get_all_users_without_params -->
+                  <span class="method-name">get_all_users_without_params</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="get_current_logged_user">
+                  </a> <!-- get_current_logged_user -->
+                  <span class="method-name">get_current_logged_user</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">bg.codeacademy.spring.gossiptalks.servicesTest.GossipServiceTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="try_to_save_gossip_with_correct_username_save">
+                  </a> <!-- try_to_save_gossip_with_correct_username_save -->
+                  <span class="method-name">try_to_save_gossip_with_correct_username_save</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+        </div> <!-- panel Surefire_suite -->
+        <div panel-name="test-xml-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;1&quot; verbose=&quot;0&quot; name=&quot;Surefire suite&quot;&gt;
+  &lt;test thread-count=&quot;1&quot; verbose=&quot;0&quot; name=&quot;Surefire test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;bg.codeacademy.spring.gossiptalks.controllerTest.UserControllerTest&quot;/&gt;
+      &lt;class name=&quot;bg.codeacademy.spring.gossiptalks.GossipTalksIntegrationTests&quot;/&gt;
+      &lt;class name=&quot;bg.codeacademy.spring.gossiptalks.servicesTest.GossipServiceTest&quot;/&gt;
+      &lt;class name=&quot;bg.codeacademy.spring.gossiptalks.servicesTest.UserServiceTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Surefire test --&gt;
+&lt;/suite&gt; &lt;!-- Surefire suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Surefire test (4 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Surefire_suite');
+function tableData_Surefire_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(16);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'create_User_correct')
+data.setCell(0, 2, 'bg.codeacademy.spring.gossiptalks.controllerTest.UserControllerTest')
+data.setCell(0, 3, 1478);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'try_to_create_user_with_existing_username_save')
+data.setCell(1, 2, 'bg.codeacademy.spring.gossiptalks.servicesTest.UserServiceTest')
+data.setCell(1, 3, 382);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'try_to_get_all_users_by_SubString_getAll')
+data.setCell(2, 2, 'bg.codeacademy.spring.gossiptalks.servicesTest.UserServiceTest')
+data.setCell(2, 3, 346);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'try_to_change_password_with_noPasswordMatch_changePassword')
+data.setCell(3, 2, 'bg.codeacademy.spring.gossiptalks.servicesTest.UserServiceTest')
+data.setCell(3, 3, 244);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'try_to_change_password_with_right_password_and_existing_username_changePassword')
+data.setCell(4, 2, 'bg.codeacademy.spring.gossiptalks.servicesTest.UserServiceTest')
+data.setCell(4, 3, 234);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'try_to_create_user_save')
+data.setCell(5, 2, 'bg.codeacademy.spring.gossiptalks.servicesTest.UserServiceTest')
+data.setCell(5, 3, 232);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'get_current_logged_user')
+data.setCell(6, 2, 'bg.codeacademy.spring.gossiptalks.controllerTest.UserControllerTest')
+data.setCell(6, 3, 123);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'try_to_get_current_logged_user_by_not_exist_username')
+data.setCell(7, 2, 'bg.codeacademy.spring.gossiptalks.servicesTest.UserServiceTest')
+data.setCell(7, 3, 122);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'try_to_get_by_username_correct_getByUsername')
+data.setCell(8, 2, 'bg.codeacademy.spring.gossiptalks.servicesTest.UserServiceTest')
+data.setCell(8, 3, 121);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'try_to_get_by_nonexisting_username_getByUsername')
+data.setCell(9, 2, 'bg.codeacademy.spring.gossiptalks.servicesTest.UserServiceTest')
+data.setCell(9, 3, 120);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'try_to_get_current_logged_user_by_username_getCurrentLoggedUser')
+data.setCell(10, 2, 'bg.codeacademy.spring.gossiptalks.servicesTest.UserServiceTest')
+data.setCell(10, 3, 119);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'try_to_change_password_with_nonexisting_user_changePassword')
+data.setCell(11, 2, 'bg.codeacademy.spring.gossiptalks.servicesTest.UserServiceTest')
+data.setCell(11, 3, 118);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'get_Users_correct')
+data.setCell(12, 2, 'bg.codeacademy.spring.gossiptalks.controllerTest.UserControllerTest')
+data.setCell(12, 3, 102);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'get_all_users_without_params')
+data.setCell(13, 2, 'bg.codeacademy.spring.gossiptalks.controllerTest.UserControllerTest')
+data.setCell(13, 3, 54);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'try_to_save_gossip_with_correct_username_save')
+data.setCell(14, 2, 'bg.codeacademy.spring.gossiptalks.servicesTest.GossipServiceTest')
+data.setCell(14, 3, 52);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'get_all_users_with_name_params_unauthorized')
+data.setCell(15, 2, 'bg.codeacademy.spring.gossiptalks.controllerTest.UserControllerTest')
+data.setCell(15, 3, 28);
+window.suiteTableData['Surefire_suite']= { tableData: data, tableDiv: 'times-div-Surefire_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 3 seconds</span>
+              <div id="times-div-Surefire_suite">
+              </div> <!-- times-div-Surefire_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">bg.codeacademy.spring.gossiptalks.controllerTest.UserControllerTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">springTestContextBeforeTestClass</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">springTestContextPrepareTestInstance</span>
+                <span class="method-start">33 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void bg.codeacademy.spring.gossiptalks.controllerTest.UserControllerTest.create_User_correct(...)</span>
+                <span class="method-start">27297 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">create_User_correct</span>
+                <span class="method-start">27304 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void bg.codeacademy.spring.gossiptalks.controllerTest.UserControllerTest.create_User_correct(...)</span>
+                <span class="method-start">28786 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void bg.codeacademy.spring.gossiptalks.controllerTest.UserControllerTest.get_Users_correct() ...)</span>
+                <span class="method-start">28789 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">get_Users_correct</span>
+                <span class="method-start">28803 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void bg.codeacademy.spring.gossiptalks.controllerTest.UserControllerTest.get_Users_correct() ...)</span>
+                <span class="method-start">28907 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void bg.codeacademy.spring.gossiptalks.controllerTest.UserControllerTest.get_all_users_with_n...)</span>
+                <span class="method-start">28908 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">get_all_users_with_name_params_unauthorized</span>
+                <span class="method-start">28912 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void bg.codeacademy.spring.gossiptalks.controllerTest.UserControllerTest.get_all_users_with_n...)</span>
+                <span class="method-start">28941 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void bg.codeacademy.spring.gossiptalks.controllerTest.UserControllerTest.get_all_users_withou...)</span>
+                <span class="method-start">28942 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">get_all_users_without_params</span>
+                <span class="method-start">28944 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void bg.codeacademy.spring.gossiptalks.controllerTest.UserControllerTest.get_all_users_withou...)</span>
+                <span class="method-start">28999 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void bg.codeacademy.spring.gossiptalks.controllerTest.UserControllerTest.get_current_logged_u...)</span>
+                <span class="method-start">29001 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">get_current_logged_user</span>
+                <span class="method-start">29003 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void bg.codeacademy.spring.gossiptalks.controllerTest.UserControllerTest.get_current_logged_u...)</span>
+                <span class="method-start">29127 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">springTestContextAfterTestClass</span>
+                <span class="method-start">29129 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">bg.codeacademy.spring.gossiptalks.servicesTest.GossipServiceTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">29141 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">try_to_save_gossip_with_correct_username_save</span>
+                <span class="method-start">29991 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">bg.codeacademy.spring.gossiptalks.servicesTest.UserServiceTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">30044 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">try_to_change_password_with_noPasswordMatch_changePassword</span>
+                <span class="method-start">30072 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">30317 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">try_to_change_password_with_nonexisting_user_changePassword</span>
+                <span class="method-start">30318 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">30437 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">try_to_change_password_with_right_password_and_existing_username_changePassword</span>
+                <span class="method-start">30437 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">try_to_create_user_save</span>
+                <span class="method-start">30672 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">30672 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">30905 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">try_to_create_user_with_existing_username_save</span>
+                <span class="method-start">30906 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">31289 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">try_to_get_all_users_by_SubString_getAll</span>
+                <span class="method-start">31290 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">try_to_get_by_nonexisting_username_getByUsername</span>
+                <span class="method-start">31637 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">31637 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">31758 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">try_to_get_by_username_correct_getByUsername</span>
+                <span class="method-start">31760 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">31882 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">try_to_get_current_logged_user_by_not_exist_username</span>
+                <span class="method-start">31883 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">32006 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">try_to_get_current_logged_user_by_username_getCurrentLoggedUser</span>
+                <span class="method-start">32006 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

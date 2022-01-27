@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/oop/OOP.iml" filepath="$PROJECT_DIR$/oop/OOP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RequestFinancing/RequestFinancing.iml" filepath="$PROJECT_DIR$/RequestFinancing/RequestFinancing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/aleksandar-yunchov.iml" filepath="$PROJECT_DIR$/.idea/aleksandar-yunchov.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chat/chat.iml" filepath="$PROJECT_DIR$/chat/chat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/company/company.iml" filepath="$PROJECT_DIR$/company/company.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javabasics/javabasics.iml" filepath="$PROJECT_DIR$/javabasics/javabasics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring/spring.iml" filepath="$PROJECT_DIR$/spring/spring.iml" />
+    </modules>
+  </component>
+</project>

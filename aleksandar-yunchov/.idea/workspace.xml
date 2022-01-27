@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b0caafb1-7d29-49fa-9ee2-c04a79178e6e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/company/src/main/java/company/config/ConfigureSecurity.java" beforeDir="false" afterPath="$PROJECT_DIR$/company/src/main/java/company/config/ConfigureSecurity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/company/src/main/java/company/controller/EmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/company/src/main/java/company/controller/EmployeeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/company/src/main/java/company/repository/impl/IndividualDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/company/src/main/java/company/repository/impl/IndividualDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/company/src/main/java/company/service/impl/EmployeeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/company/src/main/java/company/service/impl/EmployeeServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/company/src/test/java/company/controllers/IndividualControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/company/src/test/java/company/controllers/IndividualControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/company/target/classes/company/config/ConfigureSecurity.class" beforeDir="false" afterPath="$PROJECT_DIR$/company/target/classes/company/config/ConfigureSecurity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/company/target/classes/company/controller/EmployeeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/company/target/classes/company/controller/EmployeeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/company/target/classes/company/repository/impl/IndividualDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/company/target/classes/company/repository/impl/IndividualDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/company/target/classes/company/service/impl/EmployeeServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/company/target/classes/company/service/impl/EmployeeServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/company/target/test-classes/company/controllers/IndividualControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/company/target/test-classes/company/controllers/IndividualControllerTest.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$USER_HOME$/.jdks/corretto-1.8.0_292/src.zip!/java/util/Map.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="myId2FirstActivated">
+      <map>
+        <entry key="JPA Inspector" value="true" />
+        <entry key="JPA Palette" value="true" />
+        <entry key="JPA Structure" value="true" />
+      </map>
+    </option>
+    <option name="myId2Visible">
+      <map>
+        <entry key="JPA Inspector" value="false" />
+        <entry key="JPA Palette" value="false" />
+        <entry key="JPA Structure" value="false" />
+      </map>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="jdkForImporter" value="#USE_PROJECT_JDK" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1uvdtj0DJRwhAD0NCVmCocsuLiN" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+    <ConfirmationsSetting value="2" id="Remove" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="oracle" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="corretto-1.8" />
+    <property name="last.edited.regexp" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/company/src/main/java/company/validation" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
+  </component>
+  <component name="ReaderModeSettings">
+    <option name="enabled" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="company.service.impl" />
+      <recent name="company.repository.impl" />
+      <recent name="company.exception.individual" />
+      <recent name="company.exception.company" />
+      <recent name="bg.startit.spring.first.book.dto" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IdeaProjects\CodixMercurial\aleksandar-yunchov\company\src\main\java\company\validation" />
+      <recent name="D:\IdeaProjects\CodixMercurial\aleksandar-yunchov\chat\src\test" />
+      <recent name="D:\IdeaProjects\CodixMercurial\aleksandar-yunchov\chat\src\test\java" />
+      <recent name="D:\IdeaProjects\CodixMercurial\aleksandar-yunchov\chat\src\test\java\bg\codix\chat" />
+      <recent name="D:\IdeaProjects\CodixMercurial\aleksandar-yunchov\chat\src\main\java\bg\codix\chat" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\IdeaProjects\CodixMercurial\aleksandar-yunchov\spring\src\test" />
+      <recent name="D:\IdeaProjects\CodixMercurial\aleksandar-yunchov\spring\src" />
+      <recent name="D:\IdeaProjects\CodixMercurial\aleksandar-yunchov\first\src\main\resources\templates" />
+      <recent name="D:\IdeaProjects\CodixMercurial\aleksandar-yunchov\first\src\main\resources" />
+      <recent name="D:\IdeaProjects\CodixMercurial\aleksandar-yunchov\oop\src\homework1007" />
+    </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="bg.startit.book" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="bg.startit.spring.first.book" />
+      <recent name="bg.startit.spring.first" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="bg.startit.spring.first.book" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.CompanyApplication">
+    <configuration name="CompanyApplication" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="company.CompanyApplication" />
+      <module name="company" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FirstApplication" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="corretto-1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="bg.startit.FirstApplication" />
+      <module name="spring" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ChatApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="chat" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="bg.codix.chat.ChatApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CompanyApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="company" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="company.CompanyApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FirstApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="spring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bg.startit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="bg.startit.FirstApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SHORTEN_COMMAND_LINE" value="NONE" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IndividualControllerTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="company" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="company.controllers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="company.controllers" />
+      <option name="MAIN_CLASS_NAME" value="company.controllers.IndividualControllerTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IndividualControllerTest.getAllIndividuals" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="company" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="company.controllers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="company.controllers" />
+      <option name="MAIN_CLASS_NAME" value="company.controllers.IndividualControllerTest" />
+      <option name="METHOD_NAME" value="getAllIndividuals" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IndividualControllerTest.getIndividualsByCriteriaWithInvalidSearchTypeDefaultSortIssueDateOk" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="company" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="company.controllers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="company.controllers" />
+      <option name="MAIN_CLASS_NAME" value="company.controllers.IndividualControllerTest" />
+      <option name="METHOD_NAME" value="getIndividualsByCriteriaWithInvalidSearchTypeDefaultSortIssueDateOk" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IndividualControllerTest.getIndividualsByCriteriaWithSearchTypeIndivNameOk" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="company" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="company.controllers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="company.controllers" />
+      <option name="MAIN_CLASS_NAME" value="company.controllers.IndividualControllerTest" />
+      <option name="METHOD_NAME" value="getIndividualsByCriteriaWithSearchTypeIndivNameOk" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="&lt;default&gt;" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="company" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="PACKAGE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.CompanyApplication" />
+      <item itemvalue="Application.FirstApplication" />
+      <item itemvalue="Spring Boot.ChatApplication" />
+      <item itemvalue="Spring Boot.CompanyApplication" />
+      <item itemvalue="Spring Boot.FirstApplication" />
+      <item itemvalue="TestNG.IndividualControllerTest.getIndividualsByCriteriaWithSearchTypeIndivNameOk" />
+      <item itemvalue="TestNG.IndividualControllerTest.getIndividualsByCriteriaWithInvalidSearchTypeDefaultSortIssueDateOk" />
+      <item itemvalue="TestNG.&lt;default&gt;" />
+      <item itemvalue="TestNG.IndividualControllerTest.getAllIndividuals" />
+      <item itemvalue="TestNG.IndividualControllerTest" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.IndividualControllerTest" />
+        <item itemvalue="TestNG.&lt;default&gt;" />
+        <item itemvalue="TestNG.IndividualControllerTest.getAllIndividuals" />
+        <item itemvalue="TestNG.IndividualControllerTest.getIndividualsByCriteriaWithInvalidSearchTypeDefaultSortIssueDateOk" />
+        <item itemvalue="TestNG.IndividualControllerTest.getIndividualsByCriteriaWithSearchTypeIndivNameOk" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b0caafb1-7d29-49fa-9ee2-c04a79178e6e" name="Default Changelist" comment="" />
+      <created>1625550219756</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1625550219756</updated>
+      <workItem from="1625550225594" duration="13942000" />
+      <workItem from="1625896661128" duration="31729000" />
+      <workItem from="1626335572805" duration="2117000" />
+      <workItem from="1626503774243" duration="7019000" />
+      <workItem from="1627575182729" duration="2041000" />
+      <workItem from="1628689069935" duration="632000" />
+      <workItem from="1628689784647" duration="17145000" />
+      <workItem from="1629047748976" duration="14561000" />
+      <workItem from="1629352886016" duration="27799000" />
+      <workItem from="1629903849125" duration="1753000" />
+      <workItem from="1630237729282" duration="23000" />
+      <workItem from="1630244631783" duration="2312000" />
+      <workItem from="1630743538880" duration="35412000" />
+      <workItem from="1631002447483" duration="30818000" />
+      <workItem from="1631182730340" duration="4944000" />
+      <workItem from="1631341515257" duration="13432000" />
+      <workItem from="1631374162507" duration="6462000" />
+      <workItem from="1631464476351" duration="9085000" />
+      <workItem from="1631695253481" duration="2242000" />
+      <workItem from="1631773212616" duration="2352000" />
+      <workItem from="1632061579600" duration="45000" />
+      <workItem from="1632061641486" duration="12676000" />
+      <workItem from="1632745503983" duration="8687000" />
+      <workItem from="1632837126571" duration="5605000" />
+      <workItem from="1633352354746" duration="14534000" />
+      <workItem from="1634286471138" duration="4902000" />
+      <workItem from="1634366185775" duration="7911000" />
+      <workItem from="1634539865363" duration="2232000" />
+      <workItem from="1634564211076" duration="985000" />
+      <workItem from="1634565332242" duration="11882000" />
+      <workItem from="1634661282913" duration="2230000" />
+      <workItem from="1634665698999" duration="899000" />
+      <workItem from="1634722851949" duration="647000" />
+      <workItem from="1634744031405" duration="6560000" />
+      <workItem from="1634825305890" duration="4617000" />
+      <workItem from="1634911087043" duration="4631000" />
+      <workItem from="1634974829010" duration="1201000" />
+      <workItem from="1634976849041" duration="7036000" />
+      <workItem from="1635176300587" duration="24256000" />
+      <workItem from="1635250638527" duration="2007000" />
+      <workItem from="1635427906427" duration="3344000" />
+      <workItem from="1635627160717" duration="943000" />
+      <workItem from="1635628193159" duration="278000" />
+      <workItem from="1635628530691" duration="1239000" />
+      <workItem from="1635689620386" duration="1376000" />
+      <workItem from="1635774911748" duration="1050000" />
+      <workItem from="1635777344708" duration="3026000" />
+      <workItem from="1635783413369" duration="44974000" />
+      <workItem from="1636029808598" duration="752000" />
+      <workItem from="1636031327317" duration="4505000" />
+      <workItem from="1636044133091" duration="17321000" />
+      <workItem from="1636297172774" duration="116608000" />
+      <workItem from="1636874267392" duration="6266000" />
+      <workItem from="1637427572672" duration="1991000" />
+      <workItem from="1638732403623" duration="3308000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/spring/src/main/java/bg/startit/comment/CommentController.java</url>
+          <line>42</line>
+          <properties class="bg.startit.comment.CommentController">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spring/src/main/java/bg/startit/historyrecord/HistoryServiceImpl.java</url>
+          <line>74</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/company/src/main/java/company/repository/impl/InvoiceDaoImpl.java</url>
+          <line>112</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/company/src/main/java/company/service/impl/CompanyServiceImpl.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.5.3/spring-security-core-5.5.3-sources.jar!/org/springframework/security/access/expression/SecurityExpressionRoot.java</url>
+          <line>97</line>
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.5.3/spring-security-core-5.5.3-sources.jar!/org/springframework/security/access/expression/SecurityExpressionRoot.java</url>
+          <line>101</line>
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/aleksandar_yunchov$_default_.ic" NAME="&lt;default&gt; Coverage Results" MODIFIED="1636620447432" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/aleksandar_yunchov$FirstApplication.ic" NAME="FirstApplication Coverage Results" MODIFIED="1631352329723" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>bg.startit.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="hg4idea.settings">
+    <option name="CHECK_INCOMING_OUTGOING" value="true" />
+    <option name="RECENT_HG_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+</project>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="0" name="Failed suite [Surefire suite]">
+  <test thread-count="1" verbose="0" name="Surefire test(failed)">
+    <classes>
+      <class name="bg.codeacademy.spring.gossiptalks.controllerTest.UserControllerTest">
+        <methods>
+          <include name="get_current_logged_user"/>
+          <include name="create_User_correct"/>
+          <include name="springTestContextBeforeTestClass"/>
+          <include name="springTestContextBeforeTestMethod"/>
+          <include name="springTestContextPrepareTestInstance"/>
+          <include name="springTestContextAfterTestClass"/>
+          <include name="springTestContextAfterTestMethod"/>
+          <include name="get_all_users_without_params"/>
+          <include name="get_Users_correct"/>
+          <include name="get_all_users_with_name_params_unauthorized"/>
+        </methods>
+      </class> <!-- bg.codeacademy.spring.gossiptalks.controllerTest.UserControllerTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->

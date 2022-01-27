@@ -1,0 +1,739 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="26" passed="26">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="12449" started-at="2021-10-31T16:16:10 EET" finished-at="2021-10-31T16:16:23 EET">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="12449" started-at="2021-10-31T16:16:10 EET" finished-at="2021-10-31T16:16:23 EET">
+      <class name="bg.codix.chat.controller.MessageControllerTest">
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:bg.codix.chat.controller.MessageControllerTest@3c77d488]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="33" started-at="2021-10-31T16:16:10 EET" finished-at="2021-10-31T16:16:10 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:bg.codix.chat.controller.MessageControllerTest@3c77d488]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="8048" started-at="2021-10-31T16:16:10 EET" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2021-10-31T16:16:18 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:bg.codix.chat.controller.MessageControllerTest@3c77d488]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="6" started-at="2021-10-31T16:16:18 EET" finished-at="2021-10-31T16:16:18 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void bg.codix.chat.controller.MessageControllerTest.readMessageWithValidId() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="readMessageWithValidId()[pri:0, instance:bg.codix.chat.controller.MessageControllerTest@3c77d488]" name="readMessageWithValidId" duration-ms="1250" started-at="2021-10-31T16:16:18 EET" finished-at="2021-10-31T16:16:20 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readMessageWithValidId -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:bg.codix.chat.controller.MessageControllerTest@3c77d488]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="6" started-at="2021-10-31T16:16:20 EET" finished-at="2021-10-31T16:16:20 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void bg.codix.chat.controller.MessageControllerTest.readMessageWithValidId() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:bg.codix.chat.controller.MessageControllerTest@3c77d488]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="2" started-at="2021-10-31T16:16:20 EET" finished-at="2021-10-31T16:16:20 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void bg.codix.chat.controller.MessageControllerTest.readMessageWithWrongId() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="readMessageWithWrongId()[pri:0, instance:bg.codix.chat.controller.MessageControllerTest@3c77d488]" name="readMessageWithWrongId" duration-ms="126" started-at="2021-10-31T16:16:20 EET" finished-at="2021-10-31T16:16:20 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readMessageWithWrongId -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:bg.codix.chat.controller.MessageControllerTest@3c77d488]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="1" started-at="2021-10-31T16:16:20 EET" finished-at="2021-10-31T16:16:20 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void bg.codix.chat.controller.MessageControllerTest.readMessageWithWrongId() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:bg.codix.chat.controller.MessageControllerTest@3c77d488]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="17" started-at="2021-10-31T16:16:20 EET" finished-at="2021-10-31T16:16:20 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void bg.codix.chat.controller.MessageControllerTest.sendMessageBadRequest() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="sendMessageBadRequest()[pri:0, instance:bg.codix.chat.controller.MessageControllerTest@3c77d488]" name="sendMessageBadRequest" duration-ms="428" started-at="2021-10-31T16:16:20 EET" finished-at="2021-10-31T16:16:20 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendMessageBadRequest -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:bg.codix.chat.controller.MessageControllerTest@3c77d488]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="1" started-at="2021-10-31T16:16:20 EET" finished-at="2021-10-31T16:16:20 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void bg.codix.chat.controller.MessageControllerTest.sendMessageBadRequest() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:bg.codix.chat.controller.MessageControllerTest@3c77d488]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="1" started-at="2021-10-31T16:16:20 EET" finished-at="2021-10-31T16:16:20 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void bg.codix.chat.controller.MessageControllerTest.sendMessageOk() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="sendMessageOk()[pri:0, instance:bg.codix.chat.controller.MessageControllerTest@3c77d488]" name="sendMessageOk" duration-ms="732" started-at="2021-10-31T16:16:20 EET" finished-at="2021-10-31T16:16:21 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendMessageOk -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:bg.codix.chat.controller.MessageControllerTest@3c77d488]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="5" started-at="2021-10-31T16:16:21 EET" finished-at="2021-10-31T16:16:21 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void bg.codix.chat.controller.MessageControllerTest.sendMessageOk() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:bg.codix.chat.controller.MessageControllerTest@3c77d488]" name="springTestContextAfterTestClass" is-config="true" duration-ms="3" started-at="2021-10-31T16:16:21 EET" finished-at="2021-10-31T16:16:21 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+      </class> <!-- bg.codix.chat.controller.MessageControllerTest -->
+      <class name="bg.codix.chat.controller.UserControllerTest">
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:bg.codix.chat.controller.UserControllerTest@644baf4a]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="86" started-at="2021-10-31T16:16:21 EET" finished-at="2021-10-31T16:16:21 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:bg.codix.chat.controller.UserControllerTest@644baf4a]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="23" started-at="2021-10-31T16:16:21 EET" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2021-10-31T16:16:21 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:bg.codix.chat.controller.UserControllerTest@644baf4a]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="1" started-at="2021-10-31T16:16:21 EET" finished-at="2021-10-31T16:16:21 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void bg.codix.chat.controller.UserControllerTest.getAllCorrect() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="getAllCorrect()[pri:0, instance:bg.codix.chat.controller.UserControllerTest@644baf4a]" name="getAllCorrect" duration-ms="79" started-at="2021-10-31T16:16:21 EET" finished-at="2021-10-31T16:16:21 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllCorrect -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:bg.codix.chat.controller.UserControllerTest@644baf4a]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2021-10-31T16:16:21 EET" finished-at="2021-10-31T16:16:21 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void bg.codix.chat.controller.UserControllerTest.getAllCorrect() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:bg.codix.chat.controller.UserControllerTest@644baf4a]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="1" started-at="2021-10-31T16:16:21 EET" finished-at="2021-10-31T16:16:21 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void bg.codix.chat.controller.UserControllerTest.getUserMessages() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="getUserMessages()[pri:0, instance:bg.codix.chat.controller.UserControllerTest@644baf4a]" name="getUserMessages" duration-ms="140" started-at="2021-10-31T16:16:21 EET" finished-at="2021-10-31T16:16:21 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUserMessages -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:bg.codix.chat.controller.UserControllerTest@644baf4a]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="1" started-at="2021-10-31T16:16:21 EET" finished-at="2021-10-31T16:16:21 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void bg.codix.chat.controller.UserControllerTest.getUserMessages() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:bg.codix.chat.controller.UserControllerTest@644baf4a]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="2" started-at="2021-10-31T16:16:21 EET" finished-at="2021-10-31T16:16:21 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void bg.codix.chat.controller.UserControllerTest.getUserMessagesThrowException() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="getUserMessagesThrowException()[pri:0, instance:bg.codix.chat.controller.UserControllerTest@644baf4a]" name="getUserMessagesThrowException" duration-ms="37" started-at="2021-10-31T16:16:21 EET" finished-at="2021-10-31T16:16:21 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUserMessagesThrowException -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:bg.codix.chat.controller.UserControllerTest@644baf4a]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="1" started-at="2021-10-31T16:16:21 EET" finished-at="2021-10-31T16:16:21 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void bg.codix.chat.controller.UserControllerTest.getUserMessagesThrowException() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:bg.codix.chat.controller.UserControllerTest@644baf4a]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="1" started-at="2021-10-31T16:16:21 EET" finished-at="2021-10-31T16:16:21 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void bg.codix.chat.controller.UserControllerTest.getUsersWhoCanSendMessageThrowException() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="getUsersWhoCanSendMessageThrowException()[pri:0, instance:bg.codix.chat.controller.UserControllerTest@644baf4a]" name="getUsersWhoCanSendMessageThrowException" duration-ms="34" started-at="2021-10-31T16:16:21 EET" finished-at="2021-10-31T16:16:21 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUsersWhoCanSendMessageThrowException -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:bg.codix.chat.controller.UserControllerTest@644baf4a]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="1" started-at="2021-10-31T16:16:21 EET" finished-at="2021-10-31T16:16:21 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void bg.codix.chat.controller.UserControllerTest.getUsersWhoCanSendMessageThrowException() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:bg.codix.chat.controller.UserControllerTest@644baf4a]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="1" started-at="2021-10-31T16:16:21 EET" finished-at="2021-10-31T16:16:21 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void bg.codix.chat.controller.UserControllerTest.getUsersWhoCanSendMessageToStatusOk() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="getUsersWhoCanSendMessageToStatusOk()[pri:0, instance:bg.codix.chat.controller.UserControllerTest@644baf4a]" name="getUsersWhoCanSendMessageToStatusOk" duration-ms="115" started-at="2021-10-31T16:16:21 EET" finished-at="2021-10-31T16:16:21 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUsersWhoCanSendMessageToStatusOk -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:bg.codix.chat.controller.UserControllerTest@644baf4a]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="1" started-at="2021-10-31T16:16:21 EET" finished-at="2021-10-31T16:16:21 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void bg.codix.chat.controller.UserControllerTest.getUsersWhoCanSendMessageToStatusOk() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:bg.codix.chat.controller.UserControllerTest@644baf4a]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="2" started-at="2021-10-31T16:16:21 EET" finished-at="2021-10-31T16:16:21 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void bg.codix.chat.controller.UserControllerTest.getUsersWhoCanSendMessageToStatusOkAndCorrectResponse() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="getUsersWhoCanSendMessageToStatusOkAndCorrectResponse()[pri:0, instance:bg.codix.chat.controller.UserControllerTest@644baf4a]" name="getUsersWhoCanSendMessageToStatusOkAndCorrectResponse" duration-ms="48" started-at="2021-10-31T16:16:21 EET" finished-at="2021-10-31T16:16:21 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUsersWhoCanSendMessageToStatusOkAndCorrectResponse -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:bg.codix.chat.controller.UserControllerTest@644baf4a]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="1" started-at="2021-10-31T16:16:21 EET" finished-at="2021-10-31T16:16:21 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void bg.codix.chat.controller.UserControllerTest.getUsersWhoCanSendMessageToStatusOkAndCorrectResponse() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:bg.codix.chat.controller.UserControllerTest@644baf4a]" name="springTestContextAfterTestClass" is-config="true" duration-ms="1" started-at="2021-10-31T16:16:21 EET" finished-at="2021-10-31T16:16:21 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+      </class> <!-- bg.codix.chat.controller.UserControllerTest -->
+      <class name="bg.codix.chat.repository.MessageRepositoryTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:bg.codix.chat.repository.MessageRepositoryTest@7526515b]" name="setUp" is-config="true" duration-ms="1024" started-at="2021-10-31T16:16:21 EET" finished-at="2021-10-31T16:16:22 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="getAllMessagesByReceipt()[pri:0, instance:bg.codix.chat.repository.MessageRepositoryTest@7526515b]" name="getAllMessagesByReceipt" duration-ms="35" started-at="2021-10-31T16:16:22 EET" finished-at="2021-10-31T16:16:23 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllMessagesByReceipt -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:bg.codix.chat.repository.MessageRepositoryTest@7526515b]" name="setUp" is-config="true" duration-ms="1" started-at="2021-10-31T16:16:23 EET" finished-at="2021-10-31T16:16:23 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="getMessageById()[pri:0, instance:bg.codix.chat.repository.MessageRepositoryTest@7526515b]" name="getMessageById" duration-ms="1" started-at="2021-10-31T16:16:23 EET" finished-at="2021-10-31T16:16:23 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMessageById -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:bg.codix.chat.repository.MessageRepositoryTest@7526515b]" name="setUp" is-config="true" duration-ms="1" started-at="2021-10-31T16:16:23 EET" finished-at="2021-10-31T16:16:23 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="getMessageByIdHandleException()[pri:0, instance:bg.codix.chat.repository.MessageRepositoryTest@7526515b]" name="getMessageByIdHandleException" duration-ms="3" started-at="2021-10-31T16:16:23 EET" finished-at="2021-10-31T16:16:23 EET">
+          <exception class="bg.codix.chat.exception.MessageNotFoundException">
+            <message>
+              <![CDATA[Message not found with ID: 1]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[bg.codix.chat.exception.MessageNotFoundException: Message not found with ID: 1
+at bg.codix.chat.repository.impl.MessageRepositoryImpl.getMessageById(MessageRepositoryImpl.java:132)
+at bg.codix.chat.repository.MessageRepositoryTest.getMessageByIdHandleException(MessageRepositoryTest.java:86)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- bg.codix.chat.exception.MessageNotFoundException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMessageByIdHandleException -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:bg.codix.chat.repository.MessageRepositoryTest@7526515b]" name="setUp" is-config="true" duration-ms="0" started-at="2021-10-31T16:16:23 EET" finished-at="2021-10-31T16:16:23 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="readMessage()[pri:0, instance:bg.codix.chat.repository.MessageRepositoryTest@7526515b]" name="readMessage" duration-ms="3" started-at="2021-10-31T16:16:23 EET" finished-at="2021-10-31T16:16:23 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readMessage -->
+        <test-method status="PASS" signature="readMessageHanelException()[pri:0, instance:bg.codix.chat.repository.MessageRepositoryTest@7526515b]" name="readMessageHanelException" duration-ms="2" started-at="2021-10-31T16:16:23 EET" finished-at="2021-10-31T16:16:23 EET">
+          <exception class="bg.codix.chat.exception.MessageNotFoundException">
+            <message>
+              <![CDATA[The message not found]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[bg.codix.chat.exception.MessageNotFoundException: The message not found
+at bg.codix.chat.repository.impl.MessageRepositoryImpl.readMessage(MessageRepositoryImpl.java:101)
+at bg.codix.chat.repository.MessageRepositoryTest.readMessageHanelException(MessageRepositoryTest.java:139)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- bg.codix.chat.exception.MessageNotFoundException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readMessageHanelException -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:bg.codix.chat.repository.MessageRepositoryTest@7526515b]" name="setUp" is-config="true" duration-ms="0" started-at="2021-10-31T16:16:23 EET" finished-at="2021-10-31T16:16:23 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:bg.codix.chat.repository.MessageRepositoryTest@7526515b]" name="setUp" is-config="true" duration-ms="1" started-at="2021-10-31T16:16:23 EET" finished-at="2021-10-31T16:16:23 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="sendMessage()[pri:0, instance:bg.codix.chat.repository.MessageRepositoryTest@7526515b]" name="sendMessage" duration-ms="2" started-at="2021-10-31T16:16:23 EET" finished-at="2021-10-31T16:16:23 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendMessage -->
+      </class> <!-- bg.codix.chat.repository.MessageRepositoryTest -->
+      <class name="bg.codix.chat.repository.UserRepositoryTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:bg.codix.chat.repository.UserRepositoryTest@53fe15ff]" name="setUp" is-config="true" duration-ms="1" started-at="2021-10-31T16:16:23 EET" finished-at="2021-10-31T16:16:23 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="checkSameGroupOfUsersCorrect()[pri:0, instance:bg.codix.chat.repository.UserRepositoryTest@53fe15ff]" name="checkSameGroupOfUsersCorrect" duration-ms="1" started-at="2021-10-31T16:16:23 EET" finished-at="2021-10-31T16:16:23 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSameGroupOfUsersCorrect -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:bg.codix.chat.repository.UserRepositoryTest@53fe15ff]" name="setUp" is-config="true" duration-ms="1" started-at="2021-10-31T16:16:23 EET" finished-at="2021-10-31T16:16:23 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="checkSameGroupOfUsersHandleException()[pri:0, instance:bg.codix.chat.repository.UserRepositoryTest@53fe15ff]" name="checkSameGroupOfUsersHandleException" duration-ms="1" started-at="2021-10-31T16:16:23 EET" finished-at="2021-10-31T16:16:23 EET">
+          <exception class="bg.codix.chat.exception.GroupNotSameException">
+            <message>
+              <![CDATA[Sender and receipt are not in same group]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[bg.codix.chat.exception.GroupNotSameException: Sender and receipt are not in same group
+at bg.codix.chat.repository.impl.UserRepositoryImpl.checkSameGroupOfUsers(UserRepositoryImpl.java:84)
+at bg.codix.chat.repository.UserRepositoryTest.checkSameGroupOfUsersHandleException(UserRepositoryTest.java:171)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- bg.codix.chat.exception.GroupNotSameException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSameGroupOfUsersHandleException -->
+        <test-method status="PASS" signature="getAllByGroup()[pri:0, instance:bg.codix.chat.repository.UserRepositoryTest@53fe15ff]" name="getAllByGroup" duration-ms="1" started-at="2021-10-31T16:16:23 EET" finished-at="2021-10-31T16:16:23 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllByGroup -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:bg.codix.chat.repository.UserRepositoryTest@53fe15ff]" name="setUp" is-config="true" duration-ms="0" started-at="2021-10-31T16:16:23 EET" finished-at="2021-10-31T16:16:23 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:bg.codix.chat.repository.UserRepositoryTest@53fe15ff]" name="setUp" is-config="true" duration-ms="0" started-at="2021-10-31T16:16:23 EET" finished-at="2021-10-31T16:16:23 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="getAllByGroupHandleException()[pri:0, instance:bg.codix.chat.repository.UserRepositoryTest@53fe15ff]" name="getAllByGroupHandleException" duration-ms="1" started-at="2021-10-31T16:16:23 EET" finished-at="2021-10-31T16:16:23 EET">
+          <exception class="bg.codix.chat.exception.UserNotFoundException">
+            <message>
+              <![CDATA[Not found users!]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[bg.codix.chat.exception.UserNotFoundException: Not found users!
+at bg.codix.chat.repository.impl.UserRepositoryImpl.getAllByGroup(UserRepositoryImpl.java:58)
+at bg.codix.chat.repository.UserRepositoryTest.getAllByGroupHandleException(UserRepositoryTest.java:217)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- bg.codix.chat.exception.UserNotFoundException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllByGroupHandleException -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:bg.codix.chat.repository.UserRepositoryTest@53fe15ff]" name="setUp" is-config="true" duration-ms="1" started-at="2021-10-31T16:16:23 EET" finished-at="2021-10-31T16:16:23 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="getUserByIdCorrect()[pri:0, instance:bg.codix.chat.repository.UserRepositoryTest@53fe15ff]" name="getUserByIdCorrect" duration-ms="0" started-at="2021-10-31T16:16:23 EET" finished-at="2021-10-31T16:16:23 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUserByIdCorrect -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:bg.codix.chat.repository.UserRepositoryTest@53fe15ff]" name="setUp" is-config="true" duration-ms="1" started-at="2021-10-31T16:16:23 EET" finished-at="2021-10-31T16:16:23 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="getUserByIdCorrectHandleException()[pri:0, instance:bg.codix.chat.repository.UserRepositoryTest@53fe15ff]" name="getUserByIdCorrectHandleException" duration-ms="0" started-at="2021-10-31T16:16:23 EET" finished-at="2021-10-31T16:16:23 EET">
+          <exception class="bg.codix.chat.exception.UserNotFoundException">
+            <message>
+              <![CDATA[User not found with ID: 1]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[bg.codix.chat.exception.UserNotFoundException: User not found with ID: 1
+at bg.codix.chat.repository.impl.UserRepositoryImpl.getUserById(UserRepositoryImpl.java:141)
+at bg.codix.chat.repository.UserRepositoryTest.getUserByIdCorrectHandleException(UserRepositoryTest.java:75)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- bg.codix.chat.exception.UserNotFoundException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUserByIdCorrectHandleException -->
+        <test-method status="PASS" signature="getUserByUsernameCorrect()[pri:0, instance:bg.codix.chat.repository.UserRepositoryTest@53fe15ff]" name="getUserByUsernameCorrect" duration-ms="1" started-at="2021-10-31T16:16:23 EET" finished-at="2021-10-31T16:16:23 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUserByUsernameCorrect -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:bg.codix.chat.repository.UserRepositoryTest@53fe15ff]" name="setUp" is-config="true" duration-ms="0" started-at="2021-10-31T16:16:23 EET" finished-at="2021-10-31T16:16:23 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:bg.codix.chat.repository.UserRepositoryTest@53fe15ff]" name="setUp" is-config="true" duration-ms="1" started-at="2021-10-31T16:16:23 EET" finished-at="2021-10-31T16:16:23 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="getUserByUsernameHandleException()[pri:0, instance:bg.codix.chat.repository.UserRepositoryTest@53fe15ff]" name="getUserByUsernameHandleException" duration-ms="0" started-at="2021-10-31T16:16:23 EET" finished-at="2021-10-31T16:16:23 EET">
+          <exception class="bg.codix.chat.exception.UserNotFoundException">
+            <message>
+              <![CDATA[User not found with username: admin]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[bg.codix.chat.exception.UserNotFoundException: User not found with username: admin
+at bg.codix.chat.repository.impl.UserRepositoryImpl.getUserByUsername(UserRepositoryImpl.java:159)
+at bg.codix.chat.repository.UserRepositoryTest.getUserByUsernameHandleException(UserRepositoryTest.java:106)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- bg.codix.chat.exception.UserNotFoundException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUserByUsernameHandleException -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:bg.codix.chat.repository.UserRepositoryTest@53fe15ff]" name="setUp" is-config="true" duration-ms="1" started-at="2021-10-31T16:16:23 EET" finished-at="2021-10-31T16:16:23 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="getUsersWhoCanSendMessageToCorrect()[pri:0, instance:bg.codix.chat.repository.UserRepositoryTest@53fe15ff]" name="getUsersWhoCanSendMessageToCorrect" duration-ms="1" started-at="2021-10-31T16:16:23 EET" finished-at="2021-10-31T16:16:23 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUsersWhoCanSendMessageToCorrect -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:bg.codix.chat.repository.UserRepositoryTest@53fe15ff]" name="setUp" is-config="true" duration-ms="0" started-at="2021-10-31T16:16:23 EET" finished-at="2021-10-31T16:16:23 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="getUsersWhoCanSendMessageToHandleException()[pri:0, instance:bg.codix.chat.repository.UserRepositoryTest@53fe15ff]" name="getUsersWhoCanSendMessageToHandleException" duration-ms="0" started-at="2021-10-31T16:16:23 EET" finished-at="2021-10-31T16:16:23 EET">
+          <exception class="bg.codix.chat.exception.UserNotFoundException">
+            <message>
+              <![CDATA[Not users in same group]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[bg.codix.chat.exception.UserNotFoundException: Not users in same group
+at bg.codix.chat.repository.impl.UserRepositoryImpl.getUsersWhoCanSendMessageTo(UserRepositoryImpl.java:123)
+at bg.codix.chat.repository.UserRepositoryTest.getUsersWhoCanSendMessageToHandleException(UserRepositoryTest.java:141)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- bg.codix.chat.exception.UserNotFoundException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUsersWhoCanSendMessageToHandleException -->
+      </class> <!-- bg.codix.chat.repository.UserRepositoryTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

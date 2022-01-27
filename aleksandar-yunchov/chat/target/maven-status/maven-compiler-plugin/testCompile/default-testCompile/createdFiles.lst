@@ -1,0 +1,5 @@
+bg\codix\chat\controller\MessageControllerTest.class
+bg\codix\chat\controller\UserControllerTest.class
+bg\codix\chat\ChatApplicationTests.class
+bg\codix\chat\repository\MessageRepositoryTest.class
+bg\codix\chat\repository\UserRepositoryTest.class

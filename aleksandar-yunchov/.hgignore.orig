@@ -1,0 +1,12 @@
+.idea/
+out/
+javabasics/javabasics.iml.iml
+oop/oop.iml
+
+spring/target/
+spring/.mvn
+spring/aNotes
+spring/spring.iml
+chat/target/
+chat/.mvn/
+company/target/

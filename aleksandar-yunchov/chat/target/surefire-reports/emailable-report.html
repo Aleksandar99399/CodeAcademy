@@ -1,0 +1,71 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Surefire suite</th></tr>
+<tr><td><a href="#t0">Surefire test</a></td><td class="num">26</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">12 449</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Surefire suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Surefire test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="4">bg.codix.chat.controller.MessageControllerTest</td><td><a href="#m0">readMessageWithValidId</a></td><td rowspan="1">1635689778785</td><td rowspan="1">1250</td></tr><tr class="passedeven"><td><a href="#m1">readMessageWithWrongId</a></td><td rowspan="1">1635689780073</td><td rowspan="1">126</td></tr><tr class="passedeven"><td><a href="#m2">sendMessageBadRequest</a></td><td rowspan="1">1635689780218</td><td rowspan="1">428</td></tr><tr class="passedeven"><td><a href="#m3">sendMessageOk</a></td><td rowspan="1">1635689780648</td><td rowspan="1">732</td></tr><tr class="passedodd"><td rowspan="6">bg.codix.chat.controller.UserControllerTest</td><td><a href="#m4">getAllCorrect</a></td><td rowspan="1">1635689781502</td><td rowspan="1">79</td></tr><tr class="passedodd"><td><a href="#m5">getUserMessages</a></td><td rowspan="1">1635689781584</td><td rowspan="1">140</td></tr><tr class="passedodd"><td><a href="#m6">getUserMessagesThrowException</a></td><td rowspan="1">1635689781727</td><td rowspan="1">37</td></tr><tr class="passedodd"><td><a href="#m7">getUsersWhoCanSendMessageThrowException</a></td><td rowspan="1">1635689781766</td><td rowspan="1">34</td></tr><tr class="passedodd"><td><a href="#m8">getUsersWhoCanSendMessageToStatusOk</a></td><td rowspan="1">1635689781804</td><td rowspan="1">115</td></tr><tr class="passedodd"><td><a href="#m9">getUsersWhoCanSendMessageToStatusOkAndCorrectResponse</a></td><td rowspan="1">1635689781922</td><td rowspan="1">48</td></tr><tr class="passedeven"><td rowspan="6">bg.codix.chat.repository.MessageRepositoryTest</td><td><a href="#m10">getAllMessagesByReceipt</a></td><td rowspan="1">1635689782997</td><td rowspan="1">35</td></tr><tr class="passedeven"><td><a href="#m11">getMessageById</a></td><td rowspan="1">1635689783033</td><td rowspan="1">1</td></tr><tr class="passedeven"><td><a href="#m12">getMessageByIdHandleException</a></td><td rowspan="1">1635689783035</td><td rowspan="1">3</td></tr><tr class="passedeven"><td><a href="#m13">readMessage</a></td><td rowspan="1">1635689783038</td><td rowspan="1">3</td></tr><tr class="passedeven"><td><a href="#m14">readMessageHanelException</a></td><td rowspan="1">1635689783042</td><td rowspan="1">2</td></tr><tr class="passedeven"><td><a href="#m15">sendMessage</a></td><td rowspan="1">1635689783045</td><td rowspan="1">2</td></tr><tr class="passedodd"><td rowspan="10">bg.codix.chat.repository.UserRepositoryTest</td><td><a href="#m16">checkSameGroupOfUsersCorrect</a></td><td rowspan="1">1635689783049</td><td rowspan="1">1</td></tr><tr class="passedodd"><td><a href="#m17">checkSameGroupOfUsersHandleException</a></td><td rowspan="1">1635689783051</td><td rowspan="1">1</td></tr><tr class="passedodd"><td><a href="#m18">getAllByGroup</a></td><td rowspan="1">1635689783052</td><td rowspan="1">1</td></tr><tr class="passedodd"><td><a href="#m19">getAllByGroupHandleException</a></td><td rowspan="1">1635689783054</td><td rowspan="1">1</td></tr><tr class="passedodd"><td><a href="#m20">getUserByIdCorrect</a></td><td rowspan="1">1635689783056</td><td rowspan="1">0</td></tr><tr class="passedodd"><td><a href="#m21">getUserByIdCorrectHandleException</a></td><td rowspan="1">1635689783057</td><td rowspan="1">0</td></tr><tr class="passedodd"><td><a href="#m22">getUserByUsernameCorrect</a></td><td rowspan="1">1635689783058</td><td rowspan="1">1</td></tr><tr class="passedodd"><td><a href="#m23">getUserByUsernameHandleException</a></td><td rowspan="1">1635689783060</td><td rowspan="1">0</td></tr><tr class="passedodd"><td><a href="#m24">getUsersWhoCanSendMessageToCorrect</a></td><td rowspan="1">1635689783062</td><td rowspan="1">1</td></tr><tr class="passedodd"><td><a href="#m25">getUsersWhoCanSendMessageToHandleException</a></td><td rowspan="1">1635689783064</td><td rowspan="1">0</td></tr></tbody>
+</table>
+<h2>Surefire test</h2><h3 id="m0">bg.codix.chat.controller.MessageControllerTest#readMessageWithValidId</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">bg.codix.chat.controller.MessageControllerTest#readMessageWithWrongId</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">bg.codix.chat.controller.MessageControllerTest#sendMessageBadRequest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">bg.codix.chat.controller.MessageControllerTest#sendMessageOk</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">bg.codix.chat.controller.UserControllerTest#getAllCorrect</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">bg.codix.chat.controller.UserControllerTest#getUserMessages</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">bg.codix.chat.controller.UserControllerTest#getUserMessagesThrowException</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">bg.codix.chat.controller.UserControllerTest#getUsersWhoCanSendMessageThrowException</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">bg.codix.chat.controller.UserControllerTest#getUsersWhoCanSendMessageToStatusOk</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">bg.codix.chat.controller.UserControllerTest#getUsersWhoCanSendMessageToStatusOkAndCorrectResponse</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">bg.codix.chat.repository.MessageRepositoryTest#getAllMessagesByReceipt</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">bg.codix.chat.repository.MessageRepositoryTest#getMessageById</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">bg.codix.chat.repository.MessageRepositoryTest#getMessageByIdHandleException</h3><table class="result"><tr><th>Expected Exception</th></tr><tr><td><div class="stacktrace">bg.codix.chat.exception.MessageNotFoundException: Message not found with ID: 1
+	at bg.codix.chat.repository.impl.MessageRepositoryImpl.getMessageById(MessageRepositoryImpl.java:132)
+	at bg.codix.chat.repository.MessageRepositoryTest.getMessageByIdHandleException(MessageRepositoryTest.java:86)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">bg.codix.chat.repository.MessageRepositoryTest#readMessage</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m14">bg.codix.chat.repository.MessageRepositoryTest#readMessageHanelException</h3><table class="result"><tr><th>Expected Exception</th></tr><tr><td><div class="stacktrace">bg.codix.chat.exception.MessageNotFoundException: The message not found
+	at bg.codix.chat.repository.impl.MessageRepositoryImpl.readMessage(MessageRepositoryImpl.java:101)
+	at bg.codix.chat.repository.MessageRepositoryTest.readMessageHanelException(MessageRepositoryTest.java:139)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m15">bg.codix.chat.repository.MessageRepositoryTest#sendMessage</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m16">bg.codix.chat.repository.UserRepositoryTest#checkSameGroupOfUsersCorrect</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m17">bg.codix.chat.repository.UserRepositoryTest#checkSameGroupOfUsersHandleException</h3><table class="result"><tr><th>Expected Exception</th></tr><tr><td><div class="stacktrace">bg.codix.chat.exception.GroupNotSameException: Sender and receipt are not in same group
+	at bg.codix.chat.repository.impl.UserRepositoryImpl.checkSameGroupOfUsers(UserRepositoryImpl.java:84)
+	at bg.codix.chat.repository.UserRepositoryTest.checkSameGroupOfUsersHandleException(UserRepositoryTest.java:171)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m18">bg.codix.chat.repository.UserRepositoryTest#getAllByGroup</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m19">bg.codix.chat.repository.UserRepositoryTest#getAllByGroupHandleException</h3><table class="result"><tr><th>Expected Exception</th></tr><tr><td><div class="stacktrace">bg.codix.chat.exception.UserNotFoundException: Not found users!
+	at bg.codix.chat.repository.impl.UserRepositoryImpl.getAllByGroup(UserRepositoryImpl.java:58)
+	at bg.codix.chat.repository.UserRepositoryTest.getAllByGroupHandleException(UserRepositoryTest.java:217)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m20">bg.codix.chat.repository.UserRepositoryTest#getUserByIdCorrect</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m21">bg.codix.chat.repository.UserRepositoryTest#getUserByIdCorrectHandleException</h3><table class="result"><tr><th>Expected Exception</th></tr><tr><td><div class="stacktrace">bg.codix.chat.exception.UserNotFoundException: User not found with ID: 1
+	at bg.codix.chat.repository.impl.UserRepositoryImpl.getUserById(UserRepositoryImpl.java:141)
+	at bg.codix.chat.repository.UserRepositoryTest.getUserByIdCorrectHandleException(UserRepositoryTest.java:75)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m22">bg.codix.chat.repository.UserRepositoryTest#getUserByUsernameCorrect</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m23">bg.codix.chat.repository.UserRepositoryTest#getUserByUsernameHandleException</h3><table class="result"><tr><th>Expected Exception</th></tr><tr><td><div class="stacktrace">bg.codix.chat.exception.UserNotFoundException: User not found with username: admin
+	at bg.codix.chat.repository.impl.UserRepositoryImpl.getUserByUsername(UserRepositoryImpl.java:159)
+	at bg.codix.chat.repository.UserRepositoryTest.getUserByUsernameHandleException(UserRepositoryTest.java:106)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m24">bg.codix.chat.repository.UserRepositoryTest#getUsersWhoCanSendMessageToCorrect</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m25">bg.codix.chat.repository.UserRepositoryTest#getUsersWhoCanSendMessageToHandleException</h3><table class="result"><tr><th>Expected Exception</th></tr><tr><td><div class="stacktrace">bg.codix.chat.exception.UserNotFoundException: Not users in same group
+	at bg.codix.chat.repository.impl.UserRepositoryImpl.getUsersWhoCanSendMessageTo(UserRepositoryImpl.java:123)
+	at bg.codix.chat.repository.UserRepositoryTest.getUsersWhoCanSendMessageToHandleException(UserRepositoryTest.java:141)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>
